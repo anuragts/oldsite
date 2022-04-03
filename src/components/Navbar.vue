@@ -1,9 +1,11 @@
 <template>
   <div class="navbar">
     <ul>
-      <li class="start"><router-link class="active" to="/">anurag</router-link>
+      <li class="start">
+        <router-link class="active" to="/">anurag</router-link>
       </li>
-      <li><router-link to="/books" class="r-link" id="last">books</router-link>
+      <li>
+        <router-link to="/books" class="r-link" id="last">books</router-link>
       </li>
 
       <li><router-link to="/posts" class="r-link">posts</router-link></li>
@@ -40,13 +42,15 @@ li .active {
   font-size: 1.8rem;
   font-weight: 800;
   padding-bottom: 20px;
-  text-shadow: 2px 2px 15px rgb(58, 165, 236);
+  text-decoration: underline;
+  text-decoration-color: var(--third);
+  text-decoration-thickness: 0.25rem;
 }
 li .r-link {
   color: var(--third);
   text-align: center;
-  margin-top:10px;
-  margin-left: 14px ;
+  margin-top: 10px;
+  margin-left: 14px;
   margin-right: 14px;
   padding-bottom: 5px;
   text-decoration: none;
@@ -55,10 +59,9 @@ li .r-link {
   font-weight: 600;
   display: inline-block;
   position: relative;
-  
 }
- .r-link:after{
-  content: '';
+.r-link:after {
+  content: "";
   position: absolute;
   width: 100%;
   transform: scaleX(0);
@@ -68,10 +71,9 @@ li .r-link {
   background-color: var(--third);
   transform-origin: bottom right;
   transition: transform 0.35s ease-out;
-
 }
- .r-link:hover:after{
-   transform: scaleX(1);
+.r-link:hover:after {
+  transform: scaleX(1);
   transform-origin: bottom left;
 }
 #last {
