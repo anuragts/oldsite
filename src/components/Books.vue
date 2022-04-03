@@ -1,6 +1,6 @@
 <template>
-  <div class="projects">
-    <div class="title">Projects</div>
+  <div class="books">
+    <div class="title">Books</div>
   </div>
 </template>
 <style scoped>

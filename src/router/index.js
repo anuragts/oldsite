@@ -20,8 +20,17 @@ const router = createRouter({
       name:'projects',
       component: () => import('../components/Projects.vue')
     },
+    {
+      path:'/books',
+      name:'books',
+      component: () => import('../components/Books.vue')
+    },
+    {
+      path:'/twitter',
+      redirect: 'https://twitter.com/theanuragdev'
+    },
     { 
-      path: "/:pathMatch(.*)*",
+    path: "/:pathMatch(.*)*",
     name: 'NotFound',
     component: () => import('../components/NotFound.vue')
   },

@@ -3,7 +3,7 @@
     <ul>
       <li class="start"><router-link class="active" to="/">anurag</router-link>
       </li>
-      <li><router-link to="/posts" class="r-link" id="last">books</router-link>
+      <li><router-link to="/books" class="r-link" id="last">books</router-link>
       </li>
 
       <li><router-link to="/posts" class="r-link">posts</router-link></li>
