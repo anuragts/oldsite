@@ -21,7 +21,7 @@ const router = createRouter({
       component: () => import('../components/Projects.vue')
     },
     { 
-      path: "/:catchAll(.*)",
+      path: "*",
     name: 'NotFound',
     component: () => import('../components/NotFound.vue')
   },
