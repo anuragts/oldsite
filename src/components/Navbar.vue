@@ -1,0 +1,80 @@
+<template>
+  <div class="navbar">
+    <ul>
+      <li class="start"><router-link class="active" to="/">anurag</router-link>
+      </li>
+      <li><router-link to="/posts" class="r-link" id="last">books</router-link>
+      </li>
+
+      <li><router-link to="/posts" class="r-link">posts</router-link></li>
+      <li><router-link to="/projects" class="r-link">projects</router-link></li>
+    </ul>
+  </div>
+</template>
+<style scoped>
+.navbar {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+.start {
+  float: left;
+}
+
+li .active {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Nunito", sans-serif;
+  color: var(--black);
+  font-size: 1.8rem;
+  font-weight: 800;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px 15px rgb(58, 165, 236);
+}
+li .r-link {
+  color: var(--third);
+  text-align: center;
+  margin-top:10px;
+  margin-left: 14px ;
+  margin-right: 14px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+  
+}
+ .r-link:after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--third);
+  transform-origin: bottom right;
+  transition: transform 0.35s ease-out;
+
+}
+ .r-link:hover:after{
+   transform: scaleX(1);
+  transform-origin: bottom left;
+}
+#last {
+  margin-right: 4vw;
+}
+</style>
