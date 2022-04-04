@@ -18,15 +18,12 @@ defineProps({
   <div class="makepost">
     <div class="title">{{ title }}</div>
     <div class="body">{{ body }}</div>
-    <!-- <router-link to="/books" class="btn" id="last">ReadMore</router-link> -->
+    <!-- <router-link to="`/{{to}}`" class="btn" id="last">ReadMore</router-link> -->
   </div>
 </template>
 <style scoped>
 .makepost {
   margin-top: 2rem;
-  outline-style: solid;
-  outline-color: var(--third);
-  outline-width: 2px;
   padding-top: 2rem;
   padding-bottom: 2rem;
   padding-left: 0.8rem;
@@ -47,8 +44,9 @@ defineProps({
   .title {
     font-size: 25px;
   }
-}
+
 .body {
   font-size: 15px;
+}
 }
 </style>
