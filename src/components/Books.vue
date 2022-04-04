@@ -112,8 +112,8 @@
       - Sir Arthur Conan Doyle
     </div>
 
-    <div class="git">
-      Have a <span class="und">book recommendation</span>? Get in touch!
+    <div class="git"> <a href="https://twitter.com/theanuragdev">
+      Have a <span class="und">book recommendation</span>? Get in touch!</a>
     </div>
   </div>
 </template>
@@ -152,6 +152,9 @@
   font-family: "Josefin Sans", sans-serif;
   padding-bottom: 10px;
   text-align: center;
+}
+.git a{
+  text-decoration: none;
 }
 .und {
   text-decoration: underline;
