@@ -79,4 +79,20 @@ li .r-link {
 #last {
   margin-right: 4vw;
 }
+@media only screen and (max-width: 650px) {
+  .navbar {
+    display: flex;
+    justify-content: center;
+  }
+  .start {
+     position: absolute;
+     left: 50%;
+     transform: translate(-50%, 0);
+
+  }
+li .r-link{
+  padding-top: 0;
+  margin-top:4rem
+}
+}
 </style>
