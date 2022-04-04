@@ -36,37 +36,72 @@
 
     <div class="title" id="secnd">To Read Checklist!</div>
     <div class="book">
-      ✨<span class="und"
+      <i
+        class="fa fa-star fa-sm"
+        style="color: rgb(121, 190, 219)"
+        aria-hidden="true"
+      ></i
+      ><span class="und"
         >Zero to One: Notes on Start Ups, or How to Build the Future
       </span>
       - Peter Thiel
     </div>
     <div class="book">
-      ✨<span class="und">Deep Work </span>
+      <i
+        class="fa fa-star fa-sm"
+        style="color: rgb(121, 190, 219)"
+        aria-hidden="true"
+      ></i
+      ><span class="und">Deep Work </span>
       - Cal Newport
     </div>
     <div class="book">
-      ✨<span class="und">Rejection Proof </span>
+      <i
+        class="fa fa-star fa-sm"
+        style="color: rgb(121, 190, 219)"
+        aria-hidden="true"
+      ></i
+      ><span class="und">Rejection Proof </span>
       - Jia Jiang
     </div>
     <div class="book">
-      ✨<span class="und"
+      <i
+        class="fa fa-star fa-sm"
+        style="color: rgb(121, 190, 219)"
+        aria-hidden="true"
+      ></i
+      ><span class="und"
         >What If? Serious Scientific Answers to Absurd Hypothetical Questions
       </span>
       - Randall Munroe
     </div>
     <div class="book">
-      ✨<span class="und"
+      <i
+        class="fa fa-star fa-sm"
+        style="color: rgb(121, 190, 219)"
+        aria-hidden="true"
+      ></i
+      ><span class="und"
         >The Man Who Knew Infinity: A Life of the Genius Ramanujan
       </span>
       - Robert Kanigel
     </div>
     <div class="book">
-      ✨<span class="und">My Inventions, Autobiography of Nikola Tesla </span>
+      <i
+        class="fa fa-star fa-sm"
+        style="color: rgb(121, 190, 219)"
+        aria-hidden="true"
+      ></i
+      ><span class="und">My Inventions, Autobiography of Nikola Tesla </span>
       - Nikola Tesla
     </div>
     <div class="book">
-      ✨<span class="und">The Adventures of Sherlock Holmes </span>
+      <i
+        class="fa fa-star fa-sm"
+        style="color: rgb(121, 190, 219)"
+        aria-hidden="true"
+      ></i
+      ><span class="und">The Adventures of Sherlock Holmes </span>
       - Sir Arthur Conan Doyle
     </div>
 
