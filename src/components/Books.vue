@@ -84,6 +84,14 @@
         >The Man Who Knew Infinity: A Life of the Genius Ramanujan
       </span>
       - Robert Kanigel
+    </div><div class="book">
+      <i
+        class="fa fa-star fa-sm"
+        style="color: rgb(121, 190, 219)"
+        aria-hidden="true"
+      ></i
+      ><span class="und">The Courage To Be Disliked: How to free yourself, change your life and achieve real happiness </span> <br>
+      - Ichiro Kishimi and Fumitake Koga
     </div>
     <div class="book">
       <i
