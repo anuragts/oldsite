@@ -12,7 +12,9 @@
       I'm always looking to meet <span class="und">new people</span> so get in
       <span class="und">touch!</span> <br />
       <div class="rtr">
-        <a class="cnt" href="https://twitter.com/theanuragdev">Connect with me! </a>
+        <a class="cnt" href="https://twitter.com/theanuragdev"
+          >Connect with me!
+        </a>
       </div>
     </div>
   </div>
@@ -58,21 +60,20 @@
   box-shadow: 0 4px 40px rgb(0 0 0 / 40%);
 }
 @media only screen and (max-width: 650px) {
-  .about{
-  margin-left: 0.1rem;
-  margin-right: 0.1rem;
+  .about {
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
   }
 }
 @media only screen and (max-width: 420px) {
-.slogan{
-  font-size: 30px;
-
-}
-.profile{
-  width: 200px;
-}
-.cnt{
-  font-size: 1.5rem;
-}
+  .slogan {
+    font-size: 30px;
+  }
+  .profile {
+    width: 200px;
+  }
+  .cnt {
+    font-size: 1.5rem;
+  }
 }
 </style>

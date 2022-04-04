@@ -16,7 +16,6 @@
 <style scoped>
 .navbar {
   margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 ul {
   list-style-type: none;

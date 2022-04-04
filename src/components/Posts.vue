@@ -14,34 +14,14 @@ export default {
   <div class="posts">
     <div class="title">Posts</div>
     <!-- post start -->
-    <div class="box">
+    <!-- <div class="box">
     <MakePost
       title="Test Title"
       body="Satoshi Nakamoto is the name used by the presumed pseudonymous[1][2][3][4] person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation.[5] As part of the implementation, Nakamoto also devised the first blockchain database.[6] Nakamoto was active in the development of bitcoin up until December 2010.[7] Many people have or have been claimed to be Nakamoto"
       to="books"
     />
     <div class="rt">  <router-link to="/" class="btn">Read-More</router-link> </div>
-    </div>
-    <!-- post end -->
-     <!-- post start -->
-    <div class="box">
-    <MakePost
-      title="Test Title"
-      body="Satoshi Nakamoto is the name used by the presumed pseudonymous[1][2][3][4] person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation.[5] As part of the implementation, Nakamoto also devised the first blockchain database.[6] Nakamoto was active in the development of bitcoin up until December 2010.[7] Many people have or have been claimed to be Nakamoto"
-      to="books"
-    />
-    <div class="rt">  <router-link to="/" class="btn">Read-More</router-link> </div>
-    </div>
-    <!-- post end -->
-     <!-- post start -->
-    <div class="box">
-    <MakePost
-      title="Test Title"
-      body="Satoshi Nakamoto is the name used by the presumed pseudonymous[1][2][3][4] person or persons who developed bitcoin, authored the bitcoin white paper, and created and deployed bitcoin's original reference implementation.[5] As part of the implementation, Nakamoto also devised the first blockchain database.[6] Nakamoto was active in the development of bitcoin up until December 2010.[7] Many people have or have been claimed to be Nakamoto"
-      to="books"
-    />
-    <div class="rt">  <router-link to="/" class="btn">Read-More</router-link> </div>
-    </div>
+    </div> -->
     <!-- post end -->
   </div>
 </template>
