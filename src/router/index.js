@@ -29,11 +29,17 @@ const router = createRouter({
       path:'/twitter',
       redirect: 'https://twitter.com/theanuragdev'
     },
+    
+    // posts start
+
     {
       path:'/1',
       name:'1',
       component: () => import('../posts/1.vue')
     },
+
+    // posts end
+
     { 
     path: "/:pathMatch(.*)*",
     name: 'NotFound',
