@@ -13,4 +13,9 @@
   text-decoration: underline;
   text-decoration-color: var(--third);
 }
+@media only screen and (max-width: 420px) {
+  .title {
+    font-size: 30px;
+  }
+}
 </style>

@@ -65,9 +65,9 @@
       ✨<span class="und">My Inventions, Autobiography of Nikola Tesla </span>
       - Nikola Tesla
     </div>
-     <div class="book">
+    <div class="book">
       ✨<span class="und">The Adventures of Sherlock Holmes </span>
-      -  Sir Arthur Conan Doyle
+      - Sir Arthur Conan Doyle
     </div>
 
     <div class="git">
@@ -81,6 +81,7 @@
 }
 .book {
   margin-top: 2rem;
+  line-height: 1cm;
   font-size: 1.5rem;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
@@ -116,15 +117,15 @@
   text-decoration-thickness: 0.25rem;
 }
 @media only screen and (max-width: 420px) {
-.title{
-  font-size: 30px;
-}
-.head{
-font-size: 1.2rem;
-}
-.book{
+  .title {
+    font-size: 30px;
+  }
+  .head {
+    font-size: 1.2rem;
+  }
+  .book {
     font-size: 1rem;
-
-}
+    line-height: 0.8cm;
+  }
 }
 </style>
