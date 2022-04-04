@@ -4,31 +4,31 @@
     <div class="head">
       I love to <span class="und">read books</span> and many times wanted to share them with others, so  so through this, I am making my own 
       <span class="und">bookshelf.</span>
-      <div class="book">
+      <div class="book"> <a href="https://www.goodreads.com/book/show/40121378-atomic-habits" class="blink">
         ⭐<span class="und">
           Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad
           Ones</span
         >
-        - James Clear
+        - James Clear 
+        </a>
       </div>
-      <div class="book">
-        ⭐<span class="und">
+      <div class="book"><a href="https://www.goodreads.com/book/show/41881472-the-psychology-of-money" class="blink">
+        ⭐<span class="und"> 
           The Psychology of Money: Timeless Lessons on Wealth, Greed, and
-          Happiness</span
-        >
-        - Morgan Housel
+          Happiness</span>
+        - Morgan Housel </a>           
       </div>
-      <div class="book">
+      <div class="book"> <a href="https://www.goodreads.com/book/show/59795331-do-epic-shit" class="blink">
         ⭐<span class="und"> Do Epic Shit</span>
-        - Ankur Warikoo
+        - Ankur Warikoo </a>
       </div>
-      <div class="book">
+      <div class="book"> <a href="https://www.goodreads.com/book/show/3869.A_Brief_History_of_Time" class="blink">
         ⭐<span class="und"> A Brief History of Time</span>
-        - Stephen Hawking
+        - Stephen Hawking </a>
       </div>
-      <div class="book">
+      <div class="book"> <a href="https://www.goodreads.com/book/show/56378893-full-stack-react-typescript-and-node" class="blink">
         ⭐<span class="und"> Full-Stack React, Typescript, and Node</span>
-        - David Choi
+        - David Choi </a>
       </div>
     </div>
     <!-- To Read -->
@@ -120,6 +120,9 @@
 <style scoped>
 #secnd {
   margin-top: 8rem;
+}
+.blink{
+  text-decoration: none;
 }
 .book {
   margin-top: 2rem;
