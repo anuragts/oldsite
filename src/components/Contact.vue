@@ -15,7 +15,7 @@
     color: var(--third);
 }
 .contact {
-    margin-top: 10px;
+    margin-top: 1rem;
     text-align: center;
     font-family: "Josefin Sans", sans-serif;
     font-size: 2rem;
