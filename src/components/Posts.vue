@@ -40,7 +40,7 @@ export default {
 .btn:hover{
   color: var(--third);
   background-color: var(--primary);
-  border: 1px solid var(--third);
+  border: 2px solid var(--third);
 }
 .box{
     outline-style: solid;
