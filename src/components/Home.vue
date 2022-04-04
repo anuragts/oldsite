@@ -57,4 +57,19 @@
   border-radius: 50%;
   box-shadow: 0 4px 40px rgb(0 0 0 / 40%);
 }
+@media only screen and (max-width: 650px) {
+  .about{
+  margin-left: 0.1rem;
+  margin-right: 0.1rem;
+  }
+}
+@media only screen and (max-width: 420px) {
+.slogan{
+  font-size: 30px;
+
+}
+.profile{
+  width: 200px;
+}
+}
 </style>

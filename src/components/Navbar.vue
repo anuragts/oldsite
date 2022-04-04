@@ -9,7 +9,7 @@
       </li>
 
       <li><router-link to="/posts" class="r-link">posts</router-link></li>
-      <li><router-link to="/projects" class="r-link">projects</router-link></li>
+      <li><router-link id="proj" to="/projects" class="r-link">projects</router-link></li>
     </ul>
   </div>
 </template>
@@ -94,6 +94,14 @@ li .r-link{
   padding-top: 0;
   margin-top:4rem;
   margin-bottom: 2rem;
+}
+}
+@media only screen and (max-width: 350px) {
+
+li .r-link{
+  padding-top: 0;
+  margin-top:3rem;
+  margin-bottom: 1rem;
 }
 }
 </style>

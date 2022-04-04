@@ -115,4 +115,16 @@
   text-decoration-color: var(--third);
   text-decoration-thickness: 0.25rem;
 }
+@media only screen and (max-width: 420px) {
+.title{
+  font-size: 30px;
+}
+.head{
+font-size: 1.2rem;
+}
+.book{
+    font-size: 1rem;
+
+}
+}
 </style>
