@@ -71,5 +71,8 @@
 .profile{
   width: 200px;
 }
+.cnt{
+  font-size: 1.5rem;
+}
 }
 </style>
