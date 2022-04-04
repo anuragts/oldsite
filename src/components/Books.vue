@@ -2,8 +2,7 @@
   <div class="books">
     <div class="title">Bookshelf</div>
     <div class="head">
-      I love to <span class="und">read books</span> and many time wanted to
-      share it others, so through this I am making my own
+      I love to <span class="und">read books</span> aand many times wanted to share them with others, so  so through this, I am making my own 
       <span class="und">bookshelf.</span>
       <div class="book">
         ⭐<span class="und">
