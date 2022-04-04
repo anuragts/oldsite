@@ -92,7 +92,8 @@ li .r-link {
   }
 li .r-link{
   padding-top: 0;
-  margin-top:4rem
+  margin-top:4rem;
+  margin-bottom: 2rem;
 }
 }
 </style>
