@@ -17,7 +17,7 @@ import Contact from './components/Contact.vue';
 
 :root {
   --primary: #F3F8FF;
-  --black: #1f1c1c;
+  --secondary: #1f1c1c;
   --third: #8e84d0;
 
 }
