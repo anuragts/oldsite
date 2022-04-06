@@ -37,12 +37,16 @@ defineProps({
   text-align: center;
 }
 @media only screen and (max-width: 550px) {
+  .makepost {
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+  }
   .title {
     font-size: 25px;
   }
 
-.body {
-  font-size: 15px;
-}
+  .body {
+    font-size: 15px;
+  }
 }
 </style>
