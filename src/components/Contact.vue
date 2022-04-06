@@ -3,7 +3,7 @@
   <a href="https://twitter.com/theanuragdev" class="icon"> <i class="fa-brands fa-twitter"></i></a>
   <a href="mailto:anuragsharma011011@gmail.com" class="icon"><i class="fa fa-envelope" aria-hidden="true"></i>
   <a href="https://github.com/Anurag30112003" class="icon"><i class="fa-brands fa-github"></i></a>
-  <div class="mdw">Made with  <i class="fa-solid fa-heart" style="color: rgb(253, 91, 245);"></i> by <span class="cnt"> Anurag</span></div>
+ <a href="https://twitter.com/theanuragdev" style="text-decoration:none;"> <div class="mdw">Made with  <i class="fa-solid fa-heart" style="color: rgb(253, 91, 245);"></i> by <span class="cnt"> Anurag</span></div></a>
 </a>
 </div>
 </template>
