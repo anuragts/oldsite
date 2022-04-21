@@ -22,6 +22,15 @@ export default {
     <div class="rt">  <router-link to="/1" class="btn">Read-More</router-link> </div>
     </div>
     <!-- post end -->
+       <!-- post start -->
+    <div class="box">
+    <MakePost
+      title="Are we in a simulation ?"
+      body="Is the world we are living in is a computer simulation ?"
+    />
+    <div class="rt">  <router-link to="/2" class="btn">Read-More</router-link> </div>
+    </div>
+    <!-- post end -->
   </div>
 </template>
 <style scoped>
