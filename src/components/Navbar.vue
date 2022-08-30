@@ -8,7 +8,7 @@
         <router-link to="/books" class="r-link" id="last">books</router-link>
       </li>
 
-      <li><router-link to="/posts" class="r-link">posts</router-link></li>
+      <li><a href="https://blogs.anuragdev.me/" class="r-link">posts</a></li>
       <li><router-link id="proj" to="/projects" class="r-link">projects</router-link></li>
     </ul>
   </div>
