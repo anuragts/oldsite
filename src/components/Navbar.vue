@@ -9,7 +9,7 @@
       </li>
 
       <li><a href="https://posts.anuragdev.me/" class="r-link">posts</a></li>
-      <li><a id="proj" href="https://builds.anuragdev.me/" class="r-link">projects</a></li>
+      <li><a id="proj" href="https://builds.anuragdev.me/" class="r-link">builds</a></li>
     </ul>
   </div>
 </template>
