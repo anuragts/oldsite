@@ -9,7 +9,7 @@
       </li>
 
       <li><a href="https://posts.anuragdev.me/" class="r-link">posts</a></li>
-      <li><router-link id="proj" to="/projects" class="r-link">projects</router-link></li>
+      <li><a id="proj" href="https://builds.anuragdev.me/" class="r-link">projects</a></li>
     </ul>
   </div>
 </template>
