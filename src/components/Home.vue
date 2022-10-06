@@ -1,20 +1,22 @@
 <script></script>
 <template>
-  <div class="home">
-    <div class="img"><img src="../img/big.png" alt="" class="profile" /></div>
-    <div class="slogan">Hey, I'm <span class="und">Anurag</span>!</div>
-    <div class="about">
-      I'm fullstack developer , currently learning
-      <span class="und">Web3 and Blockchain.</span> Interested in
-      <span class="und">startups, finance, Blockchain </span>
-      and many more. I love to work with other people in
-      <span class="und">hackathons and collaborative projects.</span><br />
-      I'm always looking to meet <span class="und">new people</span> so get in
-      <span class="und">touch!</span> <br />
-      <div class="rtr">
-        <a class="cnt" href="https://twitter.com/theanuragdev"
-          >Connect with me!
-        </a>
+<div v-motion-roll-visible-left >
+    <div class="home">
+      <div class="img"><img src="../img/big.png" alt="" class="profile" /></div>
+      <div class="slogan">Hey, I'm <span class="und">Anurag</span>!</div>
+      <div class="about">
+        I'm fullstack developer , currently learning
+        <span class="und">Web3 and Blockchain.</span> Interested in
+        <span class="und">startups, finance, Blockchain </span>
+        and many more. I love to work with other people in
+        <span class="und">hackathons and collaborative projects.</span><br />
+        I'm always looking to meet <span class="und">new people</span> so get in
+        <span class="und">touch!</span> <br />
+        <div class="rtr">
+          <a class="cnt" href="https://twitter.com/theanuragdev"
+            >Connect with me!
+          </a>
+        </div>
       </div>
     </div>
   </div>

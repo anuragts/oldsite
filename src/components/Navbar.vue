@@ -1,16 +1,22 @@
 <template>
-  <div class="navbar">
-    <ul>
-      <li class="start">
-        <router-link class="active" to="/">anurag</router-link>
-      </li>
-      <li>
-        <router-link to="/books" class="r-link" id="last">books</router-link>
-      </li>
+  <div v-motion-roll-top>
+    <div class="navbar">
+      <ul>
+        <li class="start">
+          <router-link class="active" to="/">anurag</router-link>
+        </li>
+        <li>
+          <router-link to="/books" class="r-link" id="last">books</router-link>
+        </li>
 
-      <li><a href="https://posts.anuragdev.me/" class="r-link">posts</a></li>
-      <li><a id="proj" href="https://builds.anuragdev.me/" class="r-link">builds</a></li>
-    </ul>
+        <li><a href="https://posts.anuragdev.me/" class="r-link">posts</a></li>
+        <li>
+          <a id="proj" href="https://builds.anuragdev.me/" class="r-link"
+            >builds</a
+          >
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 <style scoped>
@@ -84,23 +90,21 @@ li .r-link {
     justify-content: center;
   }
   .start {
-     position: absolute;
-     left: 50%;
-     transform: translate(-50%, 0);
-
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
   }
-li .r-link{
-  padding-top: 0;
-  margin-top:4rem;
-  margin-bottom: 2rem;
-}
+  li .r-link {
+    padding-top: 0;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
 }
 @media only screen and (max-width: 350px) {
-
-li .r-link{
-  padding-top: 0;
-  margin-top:3rem;
-  margin-bottom: 1rem;
-}
+  li .r-link {
+    padding-top: 0;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+  }
 }
 </style>
