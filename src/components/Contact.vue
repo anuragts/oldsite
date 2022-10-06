@@ -1,5 +1,5 @@
 <template>
-  <div v-motion-roll-visible-bottom>
+  <div v-motion-roll-bottom >
     <div class="contact">
       <a href="https://twitter.com/theanuragdev" class="icon">
         <i class="fa-brands fa-twitter"></i

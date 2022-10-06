@@ -1,6 +1,6 @@
 <script></script>
 <template>
-<div v-motion-roll-visible-left >
+<div v-motion-roll-left >
     <div class="home">
       <div class="img"><img src="../img/big.png" alt="" class="profile" /></div>
       <div class="slogan">Hey, I'm <span class="und">Anurag</span>!</div>
